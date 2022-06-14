@@ -108,6 +108,7 @@ utiliza el Servidor para gestionar las diferentes peticiones de información que
 llegan y para gestionar las bases de datos alojadas en los mismos. Los usados son:
 
 - JavaScript
+				 
 JavaScript es un lenguaje de programación 
 interpretado, es decir, que no requiere
 compilación, utilizado principalmente en páginas 
@@ -122,6 +123,7 @@ páginas Web. Para interactuar con una página Web se provee al lenguaje JavaScr
 una implementación del DOM	
 
 - JSON
+				 
 JSON, que significa JavaScript Object Notation, es 
 una formatación usada para estructurar datos en 
 forma de texto y transmitirlos de un sistema a otro, 
@@ -136,6 +138,7 @@ Actualmente, diversos tipos de lenguaje de programación soportan este formato, 
 de ser una alternativa más liviana que el modelo XML.
 				      
 - AJAX
+				 
 AJAX, acrónimo de Asynchronous JavaScript And XML (JavaScript 
 asíncrono y XML), es una técnica de desarrollo Web para crear
 aplicaciones interactivas oRIA (RichInternet Applications). Estas 
