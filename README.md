@@ -285,6 +285,12 @@ mismo procedimiento que en el anterior paso a diferencia de la ruta que sería e
 subscripciones y todos los videos que tenga ese canal. Para ello reusaremos todos 
 los renders, ya que tiene una estructura parecida a la de los detalles
 		  
+<a name="diseno"></a>						     		
+## 4. Diseño de la aplicación
+
+<a name="casos_uso"></a>
+### 4.1 Diagrama de flujo		
+		
 		       
 ![Imagen](Imagenes/Flujo.png)
 	 
