@@ -284,7 +284,9 @@ mismo procedimiento que en el anterior paso a diferencia de la ruta que sería e
 25. Ahora lo que pintaremos será el cover, el canal en grande con su nombre y sus 
 subscripciones y todos los videos que tenga ese canal. Para ello reusaremos todos 
 los renders, ya que tiene una estructura parecida a la de los detalles
-
+		  
+		       
+![Imagen](imagenes/flujo.png)
 	 
 
 La aplicación dará servicio a distintos tipos distintos de usuarios:
