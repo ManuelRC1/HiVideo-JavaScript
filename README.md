@@ -3,8 +3,8 @@
 - [2. Tecnologías escogidas y justificación](#tecnologias_escogidas)  						       	   	  
   - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_1)
   - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_2) 
-- [3. ¿Por qué he elegido este proyecto?](#objetivos)
-  - [3.1. ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar](#casos_uso) 
+- [3. ¿Por qué he elegido este proyecto?](#por_que_elegir)
+  - [3.1. ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar?](#casos_uso) 
   - [3.2. Objetivo del proyecto](#casos_uso)  	
   - [3.3. Planificación](#casos_uso)  					    		  
 - [4. Diseño de la aplicación](#diseno)  										  
@@ -45,7 +45,7 @@ acceso a internet y un navegador web
 ## 2. Tecnologías escogidas y justificación 
 
 <a name="tecnologias_escogidas_1"></a>
-### 3.1 Tecnologias FrontEnd
+### 2.1 Tecnologias FrontEnd
 
 Son aquellas que se utilizan en el lado Cliente, las que se utilizan en los diferentes dispositivos que utilizamos para conectarnos con el servidor a través de internet. Las tecnologías usadas son:
 
@@ -95,7 +95,7 @@ Advanced touch / golpe soporte incorporado. Utiliza
 transiciones CSS para animación de diapositivas
 
 <a name="tecnologias_escogidas_2"></a>
-### 3.1 Tecnologias BackEnd
+### 2.1 Tecnologias BackEnd
 
 Son aquellas que se utilizan en el lado Servidor, las que 
 utiliza el Servidor para gestionar las diferentes peticiones de información que le 
@@ -152,8 +152,38 @@ técnica válida para múltiples plataformas y utilizable en muchos sistemas ope
 navegadores dado que está basado en estándares abiertos como JavaScript y Document 
 Object Model (DOM)				      
 				      
-				      
-				      
+<a name="por_que_elegir></a>
+## 3. ¿Por qué he elegido este proyecto?
+
+Llevo pensando desde hace tiempo pensando en hacer una plataforma de videos, y me 
+supone un gran reto ya que amplia muchos temas y es muy extenso, también no tiene 
+límites para seguir extendiéndolo.
+
+<a name="por_que_elegir></a>
+### 3.1 ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar?
+
+Crear una plataforma de videos es algo que requiere mucho tiempo, tanto para crearse 
+como para comprobar de que no se tiene ningún problema, pero he visto ciertos puntos a 
+destacar:
+	 
+• Como bien dije antes, se requiere mucho tiempo por si hay algún problema, pero la 
+ventaja de esto es que está disponible las 24 horas y los 365 días del año, lo que 
+me permitirá tener mi plataforma de videos permanentemente.
+	 
+• Ahorro en gastos no implica en incurrir en gastos de licencias de apertura, local 
+físico...
+	 
+• Análisis completo y detalla de los clientes, ya que la analítica web y marketing digital 
+permiten profundizar en el análisis del cliente, su comportamiento, gustos y 
+preferencias. El fin es localizar los puntos fuertes y los puntos en los que se puede 
+mejorar para el contenido y la publicidad añadida en sitios estratégicos
+	 
+• Anticipación a la competencia, donde la tecnología y el mundo avanza a pasos 
+agigantados, es importante estar en continua actualización por lo que cuanto antes 
+nos adaptemos a los nuevos cambios mayor ventaja compet	 
+	 
+	 
+	 
 
 La aplicación dará servicio a distintos tipos distintos de usuarios:
 - `Anónimo`: Podrán acceder a la página principal de la aplicación dentro de la cuál podrán conocer los servicios ofrecidos por la empresa, así como otros datos referentes a la misma.
