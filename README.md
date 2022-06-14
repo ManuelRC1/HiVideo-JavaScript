@@ -6,9 +6,7 @@
 - [3. ¿Por qué he elegido este proyecto?](#objetivos)
   - [3.1. ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar](#casos_uso) 
   - [3.2. Objetivo del proyecto](#casos_uso)  	
-
-  - [3.3. Planificación](#casos_uso)  	
-					    		  
+  - [3.3. Planificación](#casos_uso)  					    		  
 - [4. Diseño de la aplicación](#diseno)  										  
   - [4.1. Diagrama de flujo](#casos_uso) 								     	  
   - [4.2. Prototipo de pantallas](#modelo) 
