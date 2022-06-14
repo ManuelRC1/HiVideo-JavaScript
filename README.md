@@ -199,15 +199,15 @@ A continuación, escribiré todas las historias de usuario empleadas en el proye
 proceso que he llevado hasta el producto final:
 1. Creación del icono con Canva de HiVideo Sport
 
-3. Implementación de los botones de las redes sociales
+2. Implementación de los botones de las redes sociales
 
-5. Añadir el color al header junto con el botón izquierdo del menú
+3. Añadir el color al header junto con el botón izquierdo del menú
 
-7. Añadir el tamaño, el color y las dimensiones que va a ocupar el sidebar 
+4. Añadir el tamaño, el color y las dimensiones que va a ocupar el sidebar 
 
-9. Creaciones de los botones para las categorías (dentro del sidebar
+5. Creaciones de los botones para las categorías (dentro del sidebar
 
-10. Empleo de JavaScript (clase de css: .smallSidebar) para que el botón que está en el 
+6. Empleo de JavaScript (clase de css: .smallSidebar) para que el botón que está en el 
 header llame al sidebar y si haga más pequeño, y luego que el contenido 
 únicamente salga las fotos de cada uno, tapando el texto
 
@@ -227,21 +227,28 @@ nombre de la categoría y sus videos correspondientes
 
 11.Usare CSS flex para que se acomode a los tamaños de la pantalla, quiero q entren 
 4 videos en tamaño pc y también hacer tamaño responsive de ello. 
+
 12.Si me los pinta, luego que se redireccione en la página detalles con su item 
 correspondiente (añadiremos un identificador para cada item y se llamara índex)
+
 13.Pintar la página principal correctamente
+
 14.Crear otro render para que me lea los canales del sidebar y que cada vez que se 
 cumpla la condición [./json/(carpeta padre) /canales.js] me pinte unos canales u 
 otros en funcion de lo que se ponga en la categoría (en la query)
+
 15.Poner un slider con JQuery debido a que la informacion se pinta con este. Usare 
 bxslider y estableceré un atributo del cual según pongas una cosa u otra se te 
 pintará en el slider
+
 16.Que la informacion no se repita en el slider y en el mosaico que cree
+
 17.Hacer el detalles.html que es la página donde se pintará el video elegido en el 
 index.html; copiar la base del header y del sidebar (quiero que cuando estes dentro 
 de un video me sigas cargando los canales de la categoría. Ejemplo: 
 categoría=baloncesto, y se me pinten todos los de baloncesto aun estando en el 
 video).
+
 18.Crear otro render para los detalles. Este a diferencia del otro render que necesite en 
 la página principal, este no se recorrería todo, si no que se necesita que se 
 seleccione un solo objeto JSON, priorizare el orden de cada json para leerlos uno a 
@@ -252,21 +259,28 @@ Todo esto servirá para cuando pongas en la query
 del JSON, y como en la página principal, para pintar el mosaico, tiene ya un atributo 
 llamado (índex) este será el que se pase en la query 
 (category=futbol&channel=as&page=0&item=(índex)) 
+
 19. Crear el render que sale los videos recomendados en la parte derecha, pondré 6 
 videos aleatorios escogidos de las categorías creadas. Se pondrá en la ruta 
 [./json/(carpeta padre) /recomendado.js], se cambiará cada vez que se cambia de 
 categoría, y cada vez que se selecciona un item se cargará el render de 
 recomendados. Ejemplo: (category=futbol&channel=as&page=0&item=0)
+
 20.Acomodarlo en la pantalla el video juntos con los recomendados y sus títulos 
 correspondientes
+
 21.Ahora meter el canal del video junto con su imagen en grande cada vez que se 
 cargue un video que aparezca su canal correspondiente [./json/(carpeta padre) 
 /(canal)/detalleCanal.js] 
+
 22.Ahora debajo de esto introducir algunos videos del canal, sería más o menos el 
 mismo procedimiento que en el anterior paso a diferencia de la ruta que sería esta: 
 [./json/(carpeta padre) /(canal)/videosCanal.js]
+
 23. Hacer el tamaño responsive de los detalles
+
 24. Crear el channel.html, sería reusar lo que hemos usado en el header y en el sidebar
+
 25. Ahora lo que pintaremos será el cover, el canal en grande con su nombre y sus 
 subscripciones y todos los videos que tenga ese canal. Para ello reusaremos todos 
 los renders, ya que tiene una estructura parecida a la de los detalles
