@@ -15,13 +15,13 @@
   - [4.2. Prototipo de pantallas](#prototipo) 
   - [4.3. Inserción del código](#codigo) 
   			    	  						 
-- [5. Implementación y documentación](#arquitectura)   						         	   		 
+- [5. Implementación y documentación](#implementacion_documentacion)   						         	   		 
   - [5.1. Estructura del proyecto](#estructura)  						         		 
   - [5.2. Recursos externos](#recursos)  	
-  - [5.3. Implementación del diseño responsive](#recursos)
-   - [5.3.1 Funcionamiento](#recursos)
+  - [5.3. Implementación del diseño responsive](#responsive)
+   - [5.3.1 Funcionamiento](#funcionamiento)
    		
-- [6. Manual de la aplicación](#despliegue) 
+- [6. Manual de la aplicación](#manual) 
   
 - [7. Despliegue de la aplicación](#despliegue)  
  	
@@ -381,4 +381,111 @@ item.canalPrincipalQuery + "&page=" + page + "&item=" + item.direccion + "'>" +
 Por la extensión el código aportado al TFG, he puesto el render de la página principal que 
 creé donde abarca más línea de código y una de las más complejas debido a las tantas 
 situaciones que se tiene que abarcar y a la infomracion que hay que poner
+
+<a name="implementacion_documentacion"></a>						     	
+## 5. Implementación y documentación
+
+<a name="estructura"></a>
+### 5.1 Estructura del proyecto
+
+La estructura de la aplicación y sus principales carpetas son:
+• src: contiene el código fuente de la aplicación
+	o css: contiene las hojas de estilos de la aplicación
+	o images: contiene las imágenes usadas en la aplicación.
+	o js: contiene todos los ficheros JavaScript usados en la aplicación y gran 			parte de la lógica del proyecto
+	o json: contiene la informacion que sirve para plasmarlo en la aplicación
+		▪ all: es la carpeta donde se tiene que poner toda la información de 
+		todos los canales
+		▪ baloncesto: muestra los detalles de los canales y videos de baloncesto
+		▪ futbol: muestra los detalles de los canales y videos de futbol
+		▪ tennis: muestra los detalles de los canales y videos de tennis
+		▪ rugby: muestra los detalles de los canales y videos de rugby
+		▪ beisbol: muestra los detalles de los canales y videos de beisbol
+	o index.html: la página principal que mostrara la “home” de la aplicación
+	o detalles.html: es la página que se plasmara cuando se seleccione un video en 
+	la aplicación
+	o channel.html: es la página que mostrará el canal detallado al que selecciones 
+	en la aplicación
+
+<a name="estructura"></a>
+### 5.2 Recursos externos
+
+En esta aplicación se han usado diversos recursos externos, es decir, librerías y 
+código no escrito por el desarrollador de esta aplicación. Los recursos externos 
+usados son:
+• JQuery: librería de JavaScript
+• Font Awesome: iconos para los elementos del html
+• JQuery Bxslider: pinta el slider con toda la información 
+
+<a name="responsive"></a>
+### 5.3 Implementación del diseño responsive
+
+El diseño web responsive o adaptativo es una técnica de diseño web que busca la correcta 
+visualización de una misma página en distintos dispositivos. Desde ordenadores de 
+escritorio a tablets y móviles.
+Se trata de redimensionar y colocar los elementos de la web de forma que se adapten al 
+ancho de cada dispositivo permitiendo una correcta visualización y una mejor experiencia 
+de usuario. Se caracteriza porque los layouts (contenidos) e imágenes son fluidos y se usa 
+código media-queries de CSS3.
+El diseño responsive permite reducir el tiempo de desarrollo, evita los contenidos 
+duplicados, y aumenta la viralidad de los contenidos ya que permite compartirlos de una 
+forma mucho más rápida y natural.
+
+<a name="funcionamiento"></a>
+#### 5.3.1 Funcionamiento
+
+Para incluir un diseño responsive y el diseño web se ha empleado el uso de CSS flex. 
+He usado CSS flex por tres razones:
+1. Buen “amoldamiento” que tiene con el contenido: sea en el tamaño que sea, las imágenes, 
+el texto... se amolda bien en base al formato que se le da, ya que intenta ocupar todo el 
+tamaño los videos en la pantalla, eliminándose la problemática de los espacios en blanco en 
+algunos formatos de pantalla.
+2. Una de las grandes ventajas que tiene también es su soporte. Casi todos los 
+navegadores han implementado la mayoría de las funcionalidades de la 
+herramienta. Sin embargo, falta que se integre el 100% de compatibilidad, porque 
+hasta el momento soporta el 97,72%.
+3. Es fácil de usarlo y entenderlo, no es complejo de entender
+
+**Codigo de ejemplo**
+
+```
+.rowVideo{
+ display: flex;
+ width: 100%;
+ flex-direction: column;
+ margin-top: 30px;
+ margin-left: 20px;
+ }
+ .col1VideoResponsive {
+ width: 100%;
+ height: 350px;
+ top: 20px;
+ justify-content: center;
+ display: flex;
+ align-items: center;
+ margin-top: 10px;
+ }
+ .col2VideoResponsive {
+ margin-top: 150px;
+ /* width: 100%; */
+ display: flex;
+ align-items: center;
+ }
+ .col1VideoResponsive .video{
+ margin-top: 100px;
+ width: 100%;
+ height: 450px;
+ margin-left: -80px;
+ }
+```
+
+<a name="manual"></a>
+### 6 Manual de usuario
+
+• `Header`: Empezando por la izquierda podrás ver un botón para el menú, este menú 
+permite que puedas desplegar el sidebar o encogerlo, Dispondrá del icono principal 
+de HiVideoSport, que clicando a él se accederá a su página principal, y por último 
+sus redes sociales
+
+![Imagen](Imagenes/Header.png)
 
