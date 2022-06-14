@@ -93,7 +93,7 @@ del XML (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGM
 (como HTML 4.01 y anteriores). Por convención, los archivos de formato HTML usan la 
 extensión .htm o .html
 
-− BxSlider
+- BxSlider
 
 Permite transición vertical y horizontal. Las diapositivas 
 pueden contener imágenes, videos o contenido HTML. 
@@ -107,7 +107,7 @@ Son aquellas que se utilizan en el lado Servidor, las que
 utiliza el Servidor para gestionar las diferentes peticiones de información que le 
 llegan y para gestionar las bases de datos alojadas en los mismos. Los usados son:
 
-− JavaScript 
+- JavaScript
 JavaScript es un lenguaje de programación 
 interpretado, es decir, que no requiere
 compilación, utilizado principalmente en páginas 
@@ -121,7 +121,7 @@ Todos los navegadores modernos interpretan el código JavaScript integrado dentr
 páginas Web. Para interactuar con una página Web se provee al lenguaje JavaScript de 
 una implementación del DOM	
 
-− JSON
+- JSON
 JSON, que significa JavaScript Object Notation, es 
 una formatación usada para estructurar datos en 
 forma de texto y transmitirlos de un sistema a otro, 
@@ -135,7 +135,7 @@ parte del lenguaje JavaScript después del lanzamiento de la versión 5 del ECMA
 Actualmente, diversos tipos de lenguaje de programación soportan este formato, además 
 de ser una alternativa más liviana que el modelo XML.
 				      
-− AJAX
+- AJAX
 AJAX, acrónimo de Asynchronous JavaScript And XML (JavaScript 
 asíncrono y XML), es una técnica de desarrollo Web para crear
 aplicaciones interactivas oRIA (RichInternet Applications). Estas 
