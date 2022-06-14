@@ -154,7 +154,7 @@ navegadores dado que está basado en estándares abiertos como JavaScript y Docu
 Object Model (DOM).				      
 				      
 <a name="por_que_elegir"></a>						     		
-## 1. ¿Por qué he elegido este proyecto?	
+## 3. ¿Por qué he elegido este proyecto?	
 
 Llevo pensando desde hace tiempo pensando en hacer una plataforma de videos, y me 
 supone un gran reto ya que amplia muchos temas y es muy extenso, también no tiene 
@@ -407,7 +407,7 @@ La estructura de la aplicación y sus principales carpetas son:
 	o channel.html: es la página que mostrará el canal detallado al que selecciones 
 	en la aplicación
 
-<a name="estructura"></a>
+<a name="recursos"></a>
 ### 5.2 Recursos externos
 
 En esta aplicación se han usado diversos recursos externos, es decir, librerías y 
