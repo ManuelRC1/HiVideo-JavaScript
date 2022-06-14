@@ -198,23 +198,33 @@ desarrollando el diseño móvil y de la web de una forma diferente a la competen
 A continuación, escribiré todas las historias de usuario empleadas en el proyecto, y el 
 proceso que he llevado hasta el producto final:
 1. Creación del icono con Canva de HiVideo Sport
-2. Implementación de los botones de las redes sociales
-3. Añadir el color al header junto con el botón izquierdo del menú
-4. Añadir el tamaño, el color y las dimensiones que va a ocupar el sidebar 
-5. Creaciones de los botones para las categorías (dentro del sidebar)
-6. Empleo de JavaScript (clase de css: .smallSidebar) para que el botón que está en el 
+
+3. Implementación de los botones de las redes sociales
+
+5. Añadir el color al header junto con el botón izquierdo del menú
+
+7. Añadir el tamaño, el color y las dimensiones que va a ocupar el sidebar 
+
+9. Creaciones de los botones para las categorías (dentro del sidebar
+
+10. Empleo de JavaScript (clase de css: .smallSidebar) para que el botón que está en el 
 header llame al sidebar y si haga más pequeño, y luego que el contenido 
 únicamente salga las fotos de cada uno, tapando el texto
+
 7. Crear otra funcion para que cuando se vuelva “pequeño el sidebar”, se vuelva más 
 grande el main (clase de css: .largeContainer)
+
 8. Creación de los JSONs que será la información que permitirá pintar todas las 
 pantallas
+
 9. Idear una estructura para que cuando cree los renders de pueda “navegar” en base 
 a la estructura de carpetas que tenga.
+
 10.Crear un render principal para que me lea los jsons y que cada vez que se cumpla la 
 condición [./json/(carpeta padre) /all /0.js] que me los separe en el index.html cada 
 vez que entre en una carpeta padre (por la jerarquía establecida), y aparezca el 
 nombre de la categoría y sus videos correspondientes 
+
 11.Usare CSS flex para que se acomode a los tamaños de la pantalla, quiero q entren 
 4 videos en tamaño pc y también hacer tamaño responsive de ello. 
 12.Si me los pinta, luego que se redireccione en la página detalles con su item 
