@@ -4,7 +4,7 @@
   - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_1)
   - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_2) 
 - [3. ¿Por qué he elegido este proyecto?](#por_que_elegir)
-  - [3.1. ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar?](#casos_uso) 
+  - [3.1. ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar?](#mercado_desarrollo) 
   - [3.2. Objetivo del proyecto](#casos_uso)  	
   - [3.3. Planificación](#casos_uso)  					    		  
 - [4. Diseño de la aplicación](#diseno)  										  
@@ -150,7 +150,7 @@ mediante XMLHttpRequest, objeto disponible en los navegadores actuales. En cualq
 caso, no es necesario que el contenido asíncrono esté formateado en XML. Ajax es una 
 técnica válida para múltiples plataformas y utilizable en muchos sistemas operativos y 
 navegadores dado que está basado en estándares abiertos como JavaScript y Document 
-Object Model (DOM)				      
+Object Model (DOM).				      
 				      
 <a name="por_que_elegir></a>
 ## 3. ¿Por qué he elegido este proyecto?
@@ -159,7 +159,7 @@ Llevo pensando desde hace tiempo pensando en hacer una plataforma de videos, y m
 supone un gran reto ya que amplia muchos temas y es muy extenso, también no tiene 
 límites para seguir extendiéndolo.
 
-<a name="por_que_elegir></a>
+<a name="mercado_desarrollo></a>
 ### 3.1 ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar?
 
 Crear una plataforma de videos es algo que requiere mucho tiempo, tanto para crearse 
