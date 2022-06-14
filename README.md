@@ -152,8 +152,8 @@ técnica válida para múltiples plataformas y utilizable en muchos sistemas ope
 navegadores dado que está basado en estándares abiertos como JavaScript y Document 
 Object Model (DOM).				      
 				      
-<a name="por_que_elegir></a>
-## 3. ¿Por qué he elegido este proyecto?
+<a name="por_que_elegir"></a>						     		
+## 1. ¿Por qué he elegido este proyecto?	
 
 Llevo pensando desde hace tiempo pensando en hacer una plataforma de videos, y me 
 supone un gran reto ya que amplia muchos temas y es muy extenso, también no tiene 
