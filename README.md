@@ -41,8 +41,9 @@ Esta aplicación se desarrollará en la web, lo que quiere decir que no es neces
 ningún tipo de software en su equipo informático y con el único requisito de tener un 
 acceso a internet y un navegador web.
 
-<a name="tecnologias_escogidas></a>
-## 2. Tecnologías escogidas y justificación 
+
+<a name="tecnologias_escogidas"></a>						     		
+## 2. Tecnologías escogidas y justificación
 
 <a name="tecnologias_escogidas_1"></a>
 ### 2.1 Tecnologias FrontEnd
