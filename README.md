@@ -193,7 +193,7 @@ usan las redes sociales tanto, pues queremos generar interés en nuestro conteni
 desarrollando el diseño móvil y de la web de una forma diferente a la competencia 
 
 <a name="planificacion"></a>
-### 3.2 Planificación
+### 3.3 Planificación
 
 A continuación, escribiré todas las historias de usuario empleadas en el proyecto, y el 
 proceso que he llevado hasta el producto final:
@@ -311,7 +311,8 @@ El motor de bases de datos usado es `MySql`. Las razones de su elección son las
 - Es multiplataforma para Windows, Linux y Mac (los sistemas operativos más extendidos) con lo cual se podrá disponer él en cualquiera de estos.
 - Es un motor muy extendido en la comunidad de desarrolladores, con lo que conseguir ayuda es muy sencillo.
 - La labor de mantenimiento de una base de datos MySql es muy fácil debido a que presenta menos funciones frente a otros sistemas gestores. Esto, aunque pueda parecer una desventaja, tiene a su favor que el mantenimiento de la aplicación lo puede llevar el propio desarrollador, sin tener que recurrir a un administrador de bases de datos.
-- Es escalable, lo cual nos da una ventaja con vistas al futuro. 						    		  
+- Es escalable, lo cual nos da una ventaja con vistas al futuro.
+-  						    		  
 <a name="frameworks_seleccionados"></a>
 ### 3.3. Frameworks seleccionados
 El framework usado es `Symfony3.2.4`. Las razones de su elección son las siguiente:
