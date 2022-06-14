@@ -494,7 +494,8 @@ permitirá acceder a la categoria que seleccionas y a sus videos relacionados co
 este, y los canales recomendados que te salen según en la categoria en la que 
 estes
 
-![Imagen](Imagenes/SidebarResponsive.png) ![Imagen](Imagenes/blanco.png) ![Imagen](Imagenes/sidebar.png) 
+![Imagen](Imagenes/SidebarResponsive.png)
+![Imagen](Imagenes/sidebar.png) 
 
 
 • `Main`: A la hora de pasar de página el header y el sidebar es el mismo para todas 
