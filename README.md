@@ -18,9 +18,11 @@
   - [6.4. Configuración inicial](#configuracion) 
 <a name="introduccion"></a>						     		
 ## 1. Introducción 	
-Este proyecto consiste en el desarrollo de una aplicación web destinada a la sociedad cooperativa “Sociedad Cooperativa” cuyo trabajo está orientado a la producción de aceite de oliva. La aplicación consta de varias interfaces principales, cuyo aspecto y funcionalidad dependerán del rol del usuario registrado. 
-
-La aplicación se desarrolla en web, de forma que los usuarios podrán acceder a ella sin necesidad de instalar software en su equipo informático y con el único requisito de tener un navegador web y una conexión a internet. Algo que a día del desarrollo de esta aplicación está muy extendido en nuestro país. 										  
+La propuesta consiste en el desarrollo de una aplicación web destinado a crear una plataforma de videos de forma estática, donde podrás navegar a diferentes sitios y a diferentes categorías, con una gran variedad de videos. 
+Está pensado para que el usuario conozca contenido que no sabía que iba a ver y que les 
+salga contenido relacionado con lo que está viendo, de la misma temática, con lo que es importante centrarse en eso, y en que sea lo más interactiva posible.
+Esta aplicación se desarrollará en la web, lo que quiere decir que no es necesario instalar ningún tipo de software en su equipo informático y con el único requisito de tener un acceso a internet y un navegador web
+									  
 ## 2. Objetivos 
 <a name="objetivos"></a>
 La razón de la elaboración de este proyecto viene dada por la necesidad que tienen los agentes intervinientes en la elaboración de aceite de estar informados en todo momento y en tiempo real de los datos propios de la actividad principal de constantes. Con la introducción de esta aplicación en la empresa se obtendrán múltiples beneficios tales como una mayor facilidad para el almacenamiento y gestión de los datos tanto de los socios como de los empleados, una mayor posibilidad de dar a conocer sus servicios, más comodidad para los usuarios, etc.												 
