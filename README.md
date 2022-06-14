@@ -286,7 +286,7 @@ subscripciones y todos los videos que tenga ese canal. Para ello reusaremos todo
 los renders, ya que tiene una estructura parecida a la de los detalles
 		  
 		       
-![Imagen](imagenes/flujo.png)
+![Imagen](Imagenes/Flujo.png)
 	 
 
 La aplicación dará servicio a distintos tipos distintos de usuarios:
