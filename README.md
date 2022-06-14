@@ -46,12 +46,50 @@ importante centrarse en eso, y en que sea lo más interactiva posible.
 Esta aplicación se desarrollará en la web, lo que quiere decir que no es necesario instalar 
 ningún tipo de software en su equipo informático y con el único requisito de tener un 
 acceso a internet y un navegador web
-									  
-## 2. Tecnologías escogidas y justificación
+
+<a name="tecnologias_escogidas_1"></a>
+## 2. Tecnologías escogidas y justificación 
+
 <a name="tecnologias_escogidas"></a>
-La razón de la elaboración de este proyecto viene dada por la necesidad que tienen los agentes intervinientes en la elaboración de aceite de estar informados en todo momento y en tiempo real de los datos propios de la actividad principal de constantes. Con la introducción de esta aplicación en la empresa se obtendrán múltiples beneficios tales como una mayor facilidad para el almacenamiento y gestión de los datos tanto de los socios como de los empleados, una mayor posibilidad de dar a conocer sus servicios, más comodidad para los usuarios, etc.												 
-<a name="tecnologias_escogidas"></a>
-## 3. Tecnologías escogidas y justificación 
+### 3.1 Tecnologias FrontEnd
+
+Son aquellas que se utilizan en el lado Cliente, las que se utilizan en los diferentes dispositivos que utilizamos para conectarnos con el servidor a través de internet. Las tecnologías usadas son:
+
+- HTML5
+
+HTML, siglas de HyperText Markup Language (Lenguaje de Marcas 
+de Hipertexto), es el lenguaje de marcado predominante para la 
+construcción de páginas Web. Es usado para describir la estructura y 
+el contenido en forma de texto, así como para complementar el texto 
+con objetos tales como imágenes. 
+HTML se escribe en formade "etiquetas", rodeadas por corchetes 
+angulares (<,>). HTML también puede describir, hasta un cierto punto, la apariencia de un 
+documento, y puede incluir un script (por ejemplo, JavaScript), el cual puede afectar el 
+comportamiento de navegadores Web y otros procesadores de HTML.
+HTML también es usado para referirse al contenido del tipo de MIME text/html o todavía 
+más ampliamente como un término genérico para el HTML, ya sea en forma descendida 
+del XML (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGML 
+(como HTML 4.01 y anteriores). Por convención, los archivos de formato HTML usan la 
+extensión .htm o .html
+
+- CSS
+
+HTML, siglas de HyperText Markup Language (Lenguaje de Marcas 
+de Hipertexto), es el lenguaje de marcado predominante para la 
+construcción de páginas Web. Es usado para describir la estructura y 
+el contenido en forma de texto, así como para complementar el texto 
+con objetos tales como imágenes. 
+HTML se escribe en formade "etiquetas", rodeadas por corchetes 
+angulares (<,>). HTML también puede describir, hasta un cierto punto, la apariencia de un 
+documento, y puede incluir un script (por ejemplo, JavaScript), el cual puede afectar el 
+comportamiento de navegadores Web y otros procesadores de HTML.
+HTML también es usado para referirse al contenido del tipo de MIME text/html o todavía 
+más ampliamente como un término genérico para el HTML, ya sea en forma descendida 
+del XML (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGML 
+(como HTML 4.01 y anteriores). Por convención, los archivos de formato HTML usan la 
+extensión .htm o .html
+
+
 La aplicación dará servicio a distintos tipos distintos de usuarios:
 - `Anónimo`: Podrán acceder a la página principal de la aplicación dentro de la cuál podrán conocer los servicios ofrecidos por la empresa, así como otros datos referentes a la misma.
 - `Usuario:` Podrán acceder mediante una autenticación a sus datos de carácter personal y podrán interactuar con la misma dependiendo del rol específico de cada uno. Los usuarios podrán ser:
