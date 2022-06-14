@@ -2,13 +2,9 @@
 - [1. Introducción](#introduccion) 																
 - [2. Tecnologías escogidas y justificación](#tecnologias_escogidas)  						       	   	  
   - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_1)
-  	
-  - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_2)
-  
+  - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_2) 
 - [3. ¿Por qué he elegido este proyecto?](#objetivos)
-
   - [3.1. ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar](#casos_uso) 
-  
   - [3.2. Objetivo del proyecto](#casos_uso)  	
 
   - [3.3. Planificación](#casos_uso)  	
