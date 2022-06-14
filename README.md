@@ -76,7 +76,7 @@ del XML (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGM
 extensión .htm o .html
 
 
--JQuery
+- JQuery
 
 HTML, siglas de HyperText Markup Language (Lenguaje de Marcas 
 de Hipertexto), es el lenguaje de marcado predominante para la 
