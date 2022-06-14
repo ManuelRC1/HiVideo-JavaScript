@@ -1,24 +1,32 @@
 ## Índice
-- [1. Introducción](#introduccion) 																
+- [1. Introducción](#introduccion) 
+ 																
 - [2. Tecnologías escogidas y justificación](#tecnologias_escogidas)  						       	   	  
   - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_1)
   - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_2) 
+  
 - [3. ¿Por qué he elegido este proyecto?](#por_que_elegir)
   - [3.1. ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar?](#mercado_desarrollo) 
   - [3.2. Objetivo del proyecto](#objetivo)  	
-  - [3.3. Planificación](#planificacion)  					    		  
+  - [3.3. Planificación](#planificacion)  
+  					    		  
 - [4. Diseño de la aplicación](#diseno)  										  
   - [4.1. Diagrama de flujo](#casos_uso) 								     	  
   - [4.2. Prototipo de pantallas](#prototipo) 
-  - [4.3. Inserción del código](#codigo) 			    	  						 
+  - [4.3. Inserción del código](#codigo) 
+  			    	  						 
 - [5. Implementación y documentación](#arquitectura)   						         	   		 
   - [5.1. Estructura del proyecto](#estructura)  						         		 
   - [5.2. Recursos externos](#recursos)  	
   - [5.3. Implementación del diseño responsive](#recursos)
-   - [5.3.1 Funcionamiento](#recursos)		
-- [6. Manual de la aplicación](#despliegue)   
-- [7. Despliegue de la aplicación](#despliegue)   	
-- [8. Resultados y discusión](#despliegue)   	
+   - [5.3.1 Funcionamiento](#recursos)
+   		
+- [6. Manual de la aplicación](#despliegue) 
+  
+- [7. Despliegue de la aplicación](#despliegue)  
+ 	
+- [8. Resultados y discusión](#despliegue)   
+	
 - [9. Conclusiones](#despliegue)   	
 	  									       
 <a name="introduccion"></a>						     		
@@ -335,16 +343,11 @@ function renderMosaic() {
 
 ```
 function insertMosaicItem(index, page, item, category, idMosaic) {
-//Esta función está dentro del foreach del renderMosaic para que se pinte la 
-información en la página principal
+//Esta función está dentro del foreach del renderMosaic para que se pinte la información en la página principal
  let html =
  `<div class="vid-list">`
- //Aquí establezco en el enlace que hará a cada imagen con su ruta, para 
-ello tengo un parámetro llamado item que permitirá sacar la información de los 
-JSON.
- // Para que la redirección sea exitosa, ha sido necesario crear un ID, 
-lo he llamado index. Cuando selecciones un video en la página principal la 
-función sabrá cuál has seleccionado
+ //Aquí establezco en el enlace que hará a cada imagen con su ruta, para ello tengo un parámetro llamado item que permitirá sacar la información de los JSON.
+ // Para que la redirección sea exitosa, ha sido necesario crear un ID, lo he llamado index. Cuando selecciones un video en la página principal la función sabrá cuál has seleccionado
  + "<a href='detalles.html?category=" + category + "&channel=" + 
 item.canalPrincipalQuery + "&page=" + page + "&item=" + item.index + "'>" +
  //Llamamos a la imagen de la misma manera
@@ -352,14 +355,10 @@ item.canalPrincipalQuery + "&page=" + page + "&item=" + item.index + "'>" +
  <div class="flex-div">
  
  `
- //Este enlace es para el icono del canal que sale en pequeño que 
-permitirá redireccionarse.
+ //Este enlace es para el icono del canal que sale en pequeño que permitirá redireccionarse.
  //Dependiendo de la posición de los JSON en el canales.js, gracias al 
 item.dirección permitirá redirigirse para que puedas ver a un canal o a otro
- //El funcionamiento del render del channel es distinto porque funciona 
-en base a la posición en el que esta cada canal. Entonces, a cada atributo le 
-añadiré la dirección en base a la posición donde está el canal en el que se 
-quiera hacer referencia
+ //El funcionamiento del render del channel es distinto porque funciona en base a la posición en el que esta cada canal. Entonces, a cada atributo le añadiré la dirección en base a la posición donde está el canal en el que se quiera hacer referencia
  + "<a href='channel.html?category=" + category + "&channel=" + 
 item.canalPrincipalQuery + "&page=" + page + "&item=" + item.direccion + "'>" + 
 `
