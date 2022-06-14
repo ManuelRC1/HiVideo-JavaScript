@@ -10,23 +10,16 @@
 - [4. Diseño de la aplicación](#diseno)  										  
   - [4.1. Diagrama de flujo](#casos_uso) 								     	  
   - [4.2. Prototipo de pantallas](#prototipo) 
-  - [4.3. Inserción del código](#codigo) 
-					    	  						 
+  - [4.3. Inserción del código](#codigo) 			    	  						 
 - [5. Implementación y documentación](#arquitectura)   						         	   		 
   - [5.1. Estructura del proyecto](#estructura)  						         		 
   - [5.2. Recursos externos](#recursos)  	
-
   - [5.3. Implementación del diseño responsive](#recursos)
-
-   - [5.3.1 Funcionamiento](#recursos)	
-		
+   - [5.3.1 Funcionamiento](#recursos)		
 - [6. Manual de la aplicación](#despliegue)   
-
-- [6. Despliegue de la aplicación](#despliegue)   	
-
-- [6. Resultados y discusión](#despliegue)   	
-
-- [6. Conclusiones](#despliegue)   	
+- [7. Despliegue de la aplicación](#despliegue)   	
+- [8. Resultados y discusión](#despliegue)   	
+- [9. Conclusiones](#despliegue)   	
 	  									       
 <a name="introduccion"></a>						     		
 ## 1. Introducción 	
@@ -309,7 +302,7 @@ versiones finales
 ![Imagen](Imagenes/Balsamic3.png)
 	 
 
-<a name="prototipo"></a>
+<a name="codigo"></a>
 ### 4.3 Inserción del código	
 
 ```
