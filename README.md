@@ -5,8 +5,8 @@
   - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_2) 
 - [3. ¿Por qué he elegido este proyecto?](#por_que_elegir)
   - [3.1. ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar?](#mercado_desarrollo) 
-  - [3.2. Objetivo del proyecto](#casos_uso)  	
-  - [3.3. Planificación](#casos_uso)  					    		  
+  - [3.2. Objetivo del proyecto](#objetivo)  	
+  - [3.3. Planificación](#planificacion)  					    		  
 - [4. Diseño de la aplicación](#diseno)  										  
   - [4.1. Diagrama de flujo](#casos_uso) 								     	  
   - [4.2. Prototipo de pantallas](#modelo) 
@@ -183,7 +183,16 @@ mejorar para el contenido y la publicidad añadida en sitios estratégicos
 agigantados, es importante estar en continua actualización por lo que cuanto antes 
 nos adaptemos a los nuevos cambios mayor ventaja compet	 
 	 
-	 
+<a name="objetivo"></a>
+### 3.2 Objetivo del proyecto
+
+La razón de la elaboración de este proyecto viene dada por la necesidad que tienen los 
+usuarios de internet de usar su tiempo libre para ver videos, de consultar algún video para 
+alguna necesidad que tenga y sobre todo en formato móvil, y al ver que tantas personas 
+usan las redes sociales tanto, pues queremos generar interés en nuestro contenido 
+desarrollando el diseño móvil y de la web de una forma diferente a la competencia 
+
+
 	 
 
 La aplicación dará servicio a distintos tipos distintos de usuarios:
