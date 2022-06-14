@@ -47,33 +47,37 @@ Esta aplicación se desarrollará en la web, lo que quiere decir que no es neces
 ningún tipo de software en su equipo informático y con el único requisito de tener un 
 acceso a internet y un navegador web
 
-<a name="tecnologias_escogidas_1"></a>
+<a name="tecnologias_escogidas></a>
 ## 2. Tecnologías escogidas y justificación 
 
-<a name="tecnologias_escogidas"></a>
+<a name="tecnologias_escogidas_1"></a>
 ### 3.1 Tecnologias FrontEnd
 
 Son aquellas que se utilizan en el lado Cliente, las que se utilizan en los diferentes dispositivos que utilizamos para conectarnos con el servidor a través de internet. Las tecnologías usadas son:
 
 - HTML5
 
-HTML, siglas de HyperText Markup Language (Lenguaje de Marcas 
-de Hipertexto), es el lenguaje de marcado predominante para la 
-construcción de páginas Web. Es usado para describir la estructura y 
-el contenido en forma de texto, así como para complementar el texto 
-con objetos tales como imágenes. 
-HTML se escribe en formade "etiquetas", rodeadas por corchetes 
-angulares (<,>). HTML también puede describir, hasta un cierto punto, la apariencia de un 
-documento, y puede incluir un script (por ejemplo, JavaScript), el cual puede afectar el 
-comportamiento de navegadores Web y otros procesadores de HTML.
-HTML también es usado para referirse al contenido del tipo de MIME text/html o todavía 
-más ampliamente como un término genérico para el HTML, ya sea en forma descendida 
-del XML (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGML 
-(como HTML 4.01 y anteriores). Por convención, los archivos de formato HTML usan la 
-extensión .htm o .html
+HTML, siglas de HyperText Markup Language (Lenguaje de Marcas de Hipertexto), es el lenguaje de marcado predominante para la construcción de páginas Web. Es usado para describir la estructura y el contenido en forma de texto, así como para complementar el texto con objetos tales como imágenes. HTML se escribe en formade "etiquetas", rodeadas por corchetes angulares (<,>). HTML también puede describir, hasta un cierto punto, la apariencia de un documento, y puede incluir un script (por ejemplo, JavaScript), el cual puede afectar el comportamiento de navegadores Web y otros procesadores de HTML.HTML también es usado para referirse al contenido del tipo de MIME text/html o todavía más ampliamente como un término genérico para el HTML, ya sea en forma descendida del XML (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGML (como HTML 4.01 y anteriores). Por convención, los archivos de formato HTML usan la extensión .htm o .html
 
 - CSS
 
+HTML, siglas de HyperText Markup Language (Lenguaje de Marcas de Hipertexto), es el lenguaje de marcado predominante para la 
+construcción de páginas Web. Es usado para describir la estructura y 
+el contenido en forma de texto, así como para complementar el texto 
+con objetos tales como imágenes. 
+HTML se escribe en formade "etiquetas", rodeadas por corchetes 
+angulares (<,>). HTML también puede describir, hasta un cierto punto, la apariencia de un 
+documento, y puede incluir un script (por ejemplo, JavaScript), el cual puede afectar el 
+comportamiento de navegadores Web y otros procesadores de HTML.
+HTML también es usado para referirse al contenido del tipo de MIME text/html o todavía 
+más ampliamente como un término genérico para el HTML, ya sea en forma descendida 
+del XML (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGML 
+(como HTML 4.01 y anteriores). Por convención, los archivos de formato HTML usan la 
+extensión .htm o .html
+
+
+-JQuery
+
 HTML, siglas de HyperText Markup Language (Lenguaje de Marcas 
 de Hipertexto), es el lenguaje de marcado predominante para la 
 construcción de páginas Web. Es usado para describir la estructura y 
@@ -89,6 +93,70 @@ del XML (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGM
 (como HTML 4.01 y anteriores). Por convención, los archivos de formato HTML usan la 
 extensión .htm o .html
 
+− BxSlider
+
+Permite transición vertical y horizontal. Las diapositivas 
+pueden contener imágenes, videos o contenido HTML. 
+Advanced touch / golpe soporte incorporado. Utiliza 
+transiciones CSS para animación de diapositivas
+
+<a name="tecnologias_escogidas_2"></a>
+### 3.1 Tecnologias BackEnd
+
+Son aquellas que se utilizan en el lado Servidor, las que 
+utiliza el Servidor para gestionar las diferentes peticiones de información que le 
+llegan y para gestionar las bases de datos alojadas en los mismos. Los usados son:
+
+− JavaScript 
+JavaScript es un lenguaje de programación 
+interpretado, es decir, que no requiere
+compilación, utilizado principalmente en páginas 
+Web, con una sintaxis semejante ala del lenguaje 
+Java y el lenguaje C. 
+Al igual que Java, JavaScript es un lenguaje 
+orientado a objetos propiamente dicho, ya que dispone de Herencia, si bien ésta se realiza 
+siguiendo el paradigma de programación basada en prototipos, ya que las nuevas clases 
+se generan clonándolas clases base (prototipos) y extendiendo su funcionalidad. 
+Todos los navegadores modernos interpretan el código JavaScript integrado dentro de las 
+páginas Web. Para interactuar con una página Web se provee al lenguaje JavaScript de 
+una implementación del DOM	
+
+− JSON
+JSON, que significa JavaScript Object Notation, es 
+una formatación usada para estructurar datos en 
+forma de texto y transmitirlos de un sistema a otro, 
+como en aplicaciones cliente-servidor o en 
+aplicaciones móviles.
+Una manera de emplearlo es a través de requisiciones AJAX, en que la aplicación 
+recupera los datos almacenados en el servidor de hosting sin la necesidad de recargar la 
+página.
+La especificación del archivo JSON surgió alrededor del año 200, pero solo pasó a formar 
+parte del lenguaje JavaScript después del lanzamiento de la versión 5 del ECMAScript.
+Actualmente, diversos tipos de lenguaje de programación soportan este formato, además 
+de ser una alternativa más liviana que el modelo XML.
+				      
+− AJAX
+AJAX, acrónimo de Asynchronous JavaScript And XML (JavaScript 
+asíncrono y XML), es una técnica de desarrollo Web para crear
+aplicaciones interactivas oRIA (RichInternet Applications). Estas 
+aplicaciones se ejecutan en el cliente, es decir, en el navegador de los 
+usuarios mientras se mantiene la comunicación asíncrona con el 
+servidor en segundo plano. De esta forma es posible realizar cambios 
+sobre las páginas sin necesidad de recargarlas, lo que significa 
+aumentar la interactividad, velocidad y usabilidad en las aplicaciones. 
+Ajax es una tecnología asíncrona, en el sentido de que los datos 
+adicionales se requieren al servidor y se cargan en segundo plano sin interferir con la 
+visualización ni el comportamiento de la página. 
+JavaScript es el lenguaje interpretado (scripting language) en el que normalmente se 
+efectúan las funciones de llamada de Ajax mientras que el acceso a los datos se realiza 
+mediante XMLHttpRequest, objeto disponible en los navegadores actuales. En cualquier 
+caso, no es necesario que el contenido asíncrono esté formateado en XML. Ajax es una 
+técnica válida para múltiples plataformas y utilizable en muchos sistemas operativos y 
+navegadores dado que está basado en estándares abiertos como JavaScript y Document 
+Object Model (DOM)				      
+				      
+				      
+				      
 
 La aplicación dará servicio a distintos tipos distintos de usuarios:
 - `Anónimo`: Podrán acceder a la página principal de la aplicación dentro de la cuál podrán conocer los servicios ofrecidos por la empresa, así como otros datos referentes a la misma.
