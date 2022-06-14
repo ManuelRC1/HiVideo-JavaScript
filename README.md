@@ -25,9 +25,9 @@
   
 - [7. Despliegue de la aplicación](#despliegue)  
  	
-- [8. Resultados y discusión](#despliegue)   
+- [8. Resultados y discusión](#resultados)   
 	
-- [9. Conclusiones](#despliegue)   	
+- [9. Conclusiones](#conclusiones)   	
 	  									       
 <a name="introduccion"></a>						     		
 ## 1. Introducción 	
@@ -525,3 +525,58 @@ canal
 subscripciones, el nombre y todos los videos del canal
 
 ![Imagen](Imagenes/channel.png)
+
+<a name="despliegue"></a>
+### 7. Despliegue de la aplicación
+
+Para el despliegue he usado Sered.net. Sered es una plataforma que te permite alojar 
+dominios para poder desplegar aplicaciones web con el contenido que hayas hecho. 
+Para ello he creado un subdominio a partir de un dominio que ya estaba creado para que 
+se pueda mostrar la informacion con una url, y no de forma local.
+El enlace de mi proyecto es https://hivideo.websparaempresas.net
+
+<a name="resultados"></a>
+### 8. Resultados y discusión
+
+El desarrollo de la aplicación en principio se planifico en dos semanas, era complejo, pero 
+a medida que pasaba el tiempo se vio que la función que querían implementar en su 
+página es más compleja de lo que parece, estimaba que una semana o dos como mucho 
+iba a terminar toda la funcionalidad pero fueron más días de lo que se acordó.
+Respecto a diseño, lo tenía lo básico, pero no tenía desarrollado el diseño responsive ni 
+nada, y claro, al haberlo desarrollado con css Flex, un formato diferente a lo que había 
+usado antes, me costó más entenderlo, pero lo pude sacar al final en un mes en vez de 2 
+semanas, pero con el objetivo cumplido 
+Las mayores dificultades que he visto ha sido sobre todo desarrollar el código, el tener que 
+usar JavaScript para que se pinte las imágenes y títulos. Me costó bastante entenderlo 
+debido a mi poco conocimiento que tenía con JavaScript. También tuve dificultades con el 
+html estático, a la hora de usar los parámetros que pasaba en la funcion para cada html 
+estático, el uso de las comillas y crear un parámetro que me pueda permitir sacar los 
+JSONs me ha costado bastantes horas por lo poco que sabía de ello. 
+El proyecto por cómo se ha desarrollado y por la complejidad que tiene creo que no tiene 
+un gran margen de mejora, por la parte del diseño veo que hay que cambiar algo, pero 
+únicamente son detalles para pulir. Por la parte del backend si se podría plantear con una 
+base de datos, que se puedan crear usuarios, y que esos usuarios puedan subir videos. Es 
+el único punto débil que veo a mejorar, pero por la necesidad que tenía la empresa con la 
+que estábamos trabajando de tener que navegar por la query y que se leyesen las 
+carpetas y su información, lo vería bastante complejo ahora introducir una base de datos. 
+Pero si realmente se quiere ampliar, es necesario pensar algo así porque la 
+automatización, lo que quiere decir una base de datos, es la clave para que sea un 
+producto cada vez más grande, ya que en el caso en el que quieras, simplemente 
+implementar un video, es bastante difícil para un usuario que nunca ha visto el proyecto
+
+<a name="conclusiones"></a>
+### 9. Conclusiones
+
+Este proyecto me ha ayudado a crecer mucho en un área que no lo tenía tan “fortificado” 
+como es java, he aprendido más funcionalidades de JavaScript, el uso del AJAX fuera de 
+PHP, ya que no he visto, hasta este trabajo, el uso de esta tecnología y las facilidades que 
+te puede llegar a dar, las ventajas que puede tener el html estático... y, sobre todo, lo que 
+más destaco, es el uso de los JSONS, son bastantes útiles y más sencillo de lo que parece 
+poder usarlo en la página web y es perfecto para este tipo de proyecto.
+Lo mejor que saco de este trabajo es que el tiempo, la perfección y el no rendirse es lo 
+clave, pero ya no para esto, si no para todo.
+Estuve en situaciones de querer abandonar el trabajo y decir de que no podía más, pero 
+con paciencia y dedicación, al final todo se saca y la constancia luego te lo recompensa, es 
+la esencia de todo
+
+
