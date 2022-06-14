@@ -10,8 +10,7 @@
 - [4. Diseño de la aplicación](#diseno)  										  
   - [4.1. Diagrama de flujo](#casos_uso) 								     	  
   - [4.2. Prototipo de pantallas](#prototipo) 
-
-  - [4.3. Inserción del código](#modelo) 
+  - [4.3. Inserción del código](#codigo) 
 					    	  						 
 - [5. Implementación y documentación](#arquitectura)   						         	   		 
   - [5.1. Estructura del proyecto](#estructura)  						         		 
@@ -308,4 +307,86 @@ versiones finales
 
 3. Este apartado es el canal con todos los videos 
 ![Imagen](Imagenes/Balsamic3.png)
-	 						  
+	 
+
+<a name="prototipo"></a>
+### 4.3 Inserción del código	
+
+```
+function renderMosaic() { 
+//la función getParameterByName es una función creada para que cuando metas los valores en la query, primero asignes un nombre, luego le tengas que poner un =, para que posteriormente le des un valor al nombre, y segundo para que se les ponga automáticamente, antes del nombre establecido un & para separar una clave de otra. 
+    let category = getParameterByName('category'); 
+    let channel = getParameterByName('channel'); 
+    if (category === 0) {category = 'all';}    //Si no se elige ninguna categoría, las muestra todas 
+    if (channel === 0) {channel = 'all';}     //Lo mismo para los canales 
+    if (category === 'all') { 
+//Ahora cuando se meta en la query category=all, entrara dentro de la condición y pondremos los nombres de las carpetas que tienen la carpeta JSON en el Arrays, esto servirá para que se pinte una imagen distintiva de cada una de las categorías 
+        let listadoCategorias = Array('futbol', 'baloncesto', 'tennis', 'rugby', 'beisbol'); 
+        crearMosaicosCategorias(listadoCategorias); 
+//Es importante poner el nombre exacto de cada carpeta para que con el render categoria se meta dentro de cada una de las carpetas, el canal all y pinte el 0.js 
+// let finalUrl = './json/' + category + '/'+channel( está establecido como predeterminado en los parámetros como. channel=all Entonces siempre me cogerá el all) +'/0.js'; 
+// Dentro del bucle, en la función, con el html estático pondremos para todos los videos de la página principal con un mismo estilo pero recorriendo el JSON 
+        listadoCategorias.forEach(function (categoria) { 
+            renderMosaicCategoria(categoria, 'all', categoria); 
+        });  } else { 
+//Ahora en el caso en el que no estuviésemos en la categoria = all, se cargarían los canales que hay en cada categoría, se recorrería el foreach para leer primero el título, y luego abajo toda la información. Para ello el getCategoryChannels escogerá el logo (main_thumbnail) y el título (title) que está establecido en el canales.js 
+        let listadoCanales = getCategoryChannels(category); 
+        crearMosaicosCanales(listadoCanales); 
+//Luego para recorrer los videos que hay en un canal se recorre el foreach, se llama al renderMosaicCategoria y se representa en la pantalla todos los videos 
+        listadoCanales.forEach(function (canal) { 
+            renderMosaicCategoria(category, canal.canal, canal.canal);});} 
+//debido a los problemas que me ha dado he tenido que recorrerlo después para que me pinte el slider que sale en cada pantalla principal del index.html 
+    iniciarSlider();} 
+```
+
+
+```
+function insertMosaicItem(index, page, item, category, idMosaic) {
+//Esta función está dentro del foreach del renderMosaic para que se pinte la 
+información en la página principal
+ let html =
+ `<div class="vid-list">`
+ //Aquí establezco en el enlace que hará a cada imagen con su ruta, para 
+ello tengo un parámetro llamado item que permitirá sacar la información de los 
+JSON.
+ // Para que la redirección sea exitosa, ha sido necesario crear un ID, 
+lo he llamado index. Cuando selecciones un video en la página principal la 
+función sabrá cuál has seleccionado
+ + "<a href='detalles.html?category=" + category + "&channel=" + 
+item.canalPrincipalQuery + "&page=" + page + "&item=" + item.index + "'>" +
+ //Llamamos a la imagen de la misma manera
+ `<img src="` + item.main_thumbnail + `" class="thumbnail3" alt=""></a>
+ <div class="flex-div">
+ 
+ `
+ //Este enlace es para el icono del canal que sale en pequeño que 
+permitirá redireccionarse.
+ //Dependiendo de la posición de los JSON en el canales.js, gracias al 
+item.dirección permitirá redirigirse para que puedas ver a un canal o a otro
+ //El funcionamiento del render del channel es distinto porque funciona 
+en base a la posición en el que esta cada canal. Entonces, a cada atributo le 
+añadiré la dirección en base a la posición donde está el canal en el que se 
+quiera hacer referencia
+ + "<a href='channel.html?category=" + category + "&channel=" + 
+item.canalPrincipalQuery + "&page=" + page + "&item=" + item.direccion + "'>" + 
+`
+ 
+ <img src="${item.thumbnail_canal}" alt="imagenCanal"></a> 
+ <div class="vid-info">
+ <h3 style="color: black">` + item.title + `</h3>
+ <h4 style="color: darkgrey">` + item.canalPrincipal + 
+`</h4>
+ <h4 style="color: darkgrey">` + item.visualizaciones + 
+`</h4>
+ </div>
+ </div>
+ </div>`;
+ //De esta forma, con el id del html se le llamará y se pintará
+ $("#mosaic-" + idMosaic).append(html);}
+
+```
+
+Por la extensión el código aportado al TFG, he puesto el render de la página principal que 
+creé donde abarca más línea de código y una de las más complejas debido a las tantas 
+situaciones que se tiene que abarcar y a la infomracion que hay que poner
+
