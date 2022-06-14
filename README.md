@@ -1,30 +1,54 @@
 ## Índice
-- [1. Introducción](#introduccion) 						 
-- [2. Objetivos](#objetivos)  												  
-- [3. Tecnologías escogidas y justificación](#tecnologias_escogidas)  						       	   	  
-  - [3.1. Tecnologías escogidas y justificación](#tecnologias_escogidas_2)  			          	     		  
-  - [3.2. Motor de bases de datos](#bases_datos)   						    		  
-  - [3.3. Frameworks seleccionados](#frameworks_seleccionados)  						    		  
+- [1. Introducción](#introduccion) 																
+- [2. Tecnologías escogidas y justificación](#tecnologias_escogidas)  						       	   	  
+  - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_1)
+  	
+  - [2.1. Tecnologías FrontEnd](#tecnologias_escogidas_2)
+  
+- [3. ¿Por qué he elegido este proyecto?](#objetivos)
+
+  - [3.1. ¿Cómo está el mercado respecto a este tipo de proyecto que se desea desarrollar](#casos_uso) 
+  
+  - [3.2. Objetivo del proyecto](#casos_uso)  	
+
+  - [3.3. Planificación](#casos_uso)  	
+					    		  
 - [4. Diseño de la aplicación](#diseno)  										  
-  - [4.1. Casos de uso](#casos_uso) 								     	  
-  - [4.2. Modelo de dominio](#modelo)  						    	  						  
-- [5. Arquitectura de la aplicación](#arquitectura)   						         	   		 
+  - [4.1. Diagrama de flujo](#casos_uso) 								     	  
+  - [4.2. Prototipo de pantallas](#modelo) 
+
+  - [4.3. Inserción del código](#modelo) 
+					    	  						 
+- [5. Implementación y documentación](#arquitectura)   						         	   		 
   - [5.1. Estructura del proyecto](#estructura)  						         		 
-  - [5.2. Recursos externos](#recursos)  							        		  
-- [6. Manual de despliegue](#despliegue)   										 
-  - [6.1. Requisitos hardware y software aplicables](#requisitos)  			   		  
-  - [6.2. Instrucciones de despliegue en Linux](#despliegue_linux)   			 		    	 
-  - [6.3. Instrucciones de despliegue en Windows, Mac y en un proveedor en la nube](#despliegue_resto)   		  									       
-  - [6.4. Configuración inicial](#configuracion) 
+  - [5.2. Recursos externos](#recursos)  	
+
+  - [5.3. Implementación del diseño responsive](#recursos)
+
+   - [5.3.1 Funcionamiento](#recursos)	
+		
+- [6. Manual de la aplicación](#despliegue)   
+
+- [6. Despliegue de la aplicación](#despliegue)   	
+
+- [6. Resultados y discusión](#despliegue)   	
+
+- [6. Conclusiones](#despliegue)   	
+	  									       
 <a name="introduccion"></a>						     		
 ## 1. Introducción 	
-La propuesta consiste en el desarrollo de una aplicación web destinado a crear una plataforma de videos de forma estática, donde podrás navegar a diferentes sitios y a diferentes categorías, con una gran variedad de videos. 
+La propuesta consiste en el desarrollo de una aplicación web destinado a crear una 
+plataforma de videos de forma estática, donde podrás navegar a diferentes sitios y a 
+diferentes categorías, con una gran variedad de videos. 
 Está pensado para que el usuario conozca contenido que no sabía que iba a ver y que les 
-salga contenido relacionado con lo que está viendo, de la misma temática, con lo que es importante centrarse en eso, y en que sea lo más interactiva posible.
-Esta aplicación se desarrollará en la web, lo que quiere decir que no es necesario instalar ningún tipo de software en su equipo informático y con el único requisito de tener un acceso a internet y un navegador web
+salga contenido relacionado con lo que está viendo, de la misma temática, con lo que es 
+importante centrarse en eso, y en que sea lo más interactiva posible.
+Esta aplicación se desarrollará en la web, lo que quiere decir que no es necesario instalar 
+ningún tipo de software en su equipo informático y con el único requisito de tener un 
+acceso a internet y un navegador web
 									  
-## 2. Objetivos 
-<a name="objetivos"></a>
+## 2. Tecnologías escogidas y justificación
+<a name="tecnologias_escogidas"></a>
 La razón de la elaboración de este proyecto viene dada por la necesidad que tienen los agentes intervinientes en la elaboración de aceite de estar informados en todo momento y en tiempo real de los datos propios de la actividad principal de constantes. Con la introducción de esta aplicación en la empresa se obtendrán múltiples beneficios tales como una mayor facilidad para el almacenamiento y gestión de los datos tanto de los socios como de los empleados, una mayor posibilidad de dar a conocer sus servicios, más comodidad para los usuarios, etc.												 
 <a name="tecnologias_escogidas"></a>
 ## 3. Tecnologías escogidas y justificación 
