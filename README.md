@@ -494,10 +494,10 @@ permitirá acceder a la categoria que seleccionas y a sus videos relacionados co
 este, y los canales recomendados que te salen según en la categoria en la que 
 estes
 
-![Imagen](Imagenes/Sidebar.png) ![Imagen](Imagenes/SidebarResponsive.png)
+![Imagen](Imagenes/sidebar.png) ![Imagen](Imagenes/SidebarResponsive.png)
 
 
-• Main: A la hora de pasar de página el header y el sidebar es el mismo para todas 
+• `Main`: A la hora de pasar de página el header y el sidebar es el mismo para todas 
 las páginas, a excepción de los canales recomendados, que depender 
 indirectamente porque no depende de la página a la que te redirijas, si no a la 
 categoria en la que estes situada. Entonces vamos a ver los siguientes ‘main’ que 
@@ -512,7 +512,7 @@ directamente a él y ver todo el contenido que ofrece el canal
 
 ![Imagen](Imagenes/mainPrincipal.png)
 
-• Detalles.html: En esta sección se accederá si pinchas a un video del 
+• `Detalles.html`: En esta sección se accederá si pinchas a un video del 
 index.html. Saldrá el video en grande seleccionado junto con sus videos 
 recomendados, también podrás acceder al video y a su canal, y, por último, 
 en la parte de abajo, se pintará el canal del video junto con 4 videos de ese 
@@ -520,7 +520,7 @@ canal
 
 ![Imagen](Imagenes/detalles.png)
 
-• Canal.html: Por último, saldría un cover del canal seleccionado con sus 
+• `Canal.html`: Por último, saldría un cover del canal seleccionado con sus 
 subscripciones, el nombre y todos los videos del canal
 
 ![Imagen](Imagenes/channel.png)
