@@ -39,7 +39,7 @@ salga contenido relacionado con lo que está viendo, de la misma temática, con 
 importante centrarse en eso, y en que sea lo más interactiva posible.
 Esta aplicación se desarrollará en la web, lo que quiere decir que no es necesario instalar 
 ningún tipo de software en su equipo informático y con el único requisito de tener un 
-acceso a internet y un navegador web
+acceso a internet y un navegador web.
 
 <a name="tecnologias_escogidas></a>
 ## 2. Tecnologías escogidas y justificación 
